@@ -1,0 +1,92 @@
+Style = para adicionar estilo na página (se for css externo não precisa) - adicionar dentro da head, abaixo do title (organização né)
+
+link-css = para adicionar css externo
+
+@charset "UTF-8"; (sempre por na 1° linha do css externo, para não ter problema de compatibilidade)
+
+*{} = configurações globais CSS, as aplicações são aplicadas em todas as tags de uma só vez
+
+background-color = adicionar o cor de fundo da página ou texto
+
+background-image: linear-gradient(escolher a direcão e depois o codigo das cores); = adicionar cores degradê ao fundo de imagem
+exemplo de direções --> (to right, to left, to top, to bottom)
+
+
+background-attachment : fixed; fundo fixo
+
+height = altura
+width = largura
+
+padding = espaçamento da letra lateral (colocar as informações no sentido hórario também, como o exemplo de margin)
+
+margin = auto; = centarliza o conteúdo independente do tamanho da tela (se não for auto, colocar as informações sempre no sentido horário)
+exemplo = margin-top: margin-right: margin-bottom margin-left (sempre nessa ordem!)
+
+
+border = borda do texto
+exemplo = border-width: 10 px border-style: solid border-color: red
+
+shorthand do "border"= border-width -> border-style -> border-color
+exemplo : border: 10px solid blue;
+
+border-radius = arredondar as pontas do vértice
+
+
+outline = contorno
+shorthand do "outline"= outline-width -> outline-style -> outline-color
+exemplo: outline: 20px solid red;
+
+
+font-family = fonte das letras
+
+font-size = tamanho das letras (recomendado usar px ou em), tamanho normal das letras em site é 16px que é igual a 1em
+
+font-weight = peso da fonte
+
+font: font-style -> font-weight -> font-size -> font-family (atalho pra não fazer as configurações de fontes em várias linhas)
+exemplo : h1 {font : italic bolder 2em 'work sans', sans-serif;}
+
+
+text-align = alinhamento de texto (left, right, center, justify)
+
+line-height = espaçamento entre as linhas do texto (para facilitar a leitura em textos longos)
+
+text-shadow = adiciona sombra no texto
+
+box-shadow = adiciona sombra na caixa
+
+
+id em HTML e # em CSS = identificador de elemento único
+exemplo = no html <h1 id="principal">, no css pra personalizar h1#principal{text-align center}
+
+
+class em HTML, e . em CSS = identificador de vários elementos
+exemplo = no html <h2 class="subtitulo">, no css pra personalizar .subtitulo{color=red;}
+
+
+nome do lugar : hover = personalizar o link
+nome do lugar : visited = personalizar os links que já foram visitados
+nome do lugar : active = personalizar enquanto o mouse está clicado
+exemplo = a:hover{color: green; text-decoration: underline;}
+exmeplo2 = a: visited {color: red; text-decoration: none;}
+
+
+nome do lugar :: before = personaliza um pedaço específico antes do link
+nome do lugar :: after = personaliza um pedaço específico depois do link
+exemplo = a::after{color: black; font-weight: normal;}
+
+
+:root = adicionar variáveis em CSS
+exemplo: ( :root{--cor1(pode escolher o nome que quiser da variável): blue ou --fonte1:"Bebas Neue"} )
+
+list-style-type = define o estilo de lista que será aplicado
+exemplo: ul{list-style type:'\2714\0020\0020'
+OBSERVAÇÃO SOBRE OS NÚMEROS DO EXEMPLO ACIMA! (o "\" é padrão do código, tem q ter sempre antes de cada numero. 
+O "2714" é o codigo do emoji escolhido na net. e o "0020" é espaçamento em branco, q pode usar quantos achar necessário!)
+
+
+list-style-position = onde será aplicado o tipo dos marcadores da lista
+exemplo : ul{list-style-position: inside ou outside) 
+
+columns = número de colunas que terá nas listas (divididas em partes iguais automaticamente)
+exemplo : ul{columns:2}

@@ -1,0 +1,82 @@
+Do <H1> ao <H6> - Títulos e Subtítulos
+
+<p> - Parágrafos
+
+<hr> - Linha horizontal
+
+<br> - Quebra de linhas
+
+lt; - menor que
+gt; - maior que
+
+<!--  para adicionar comentários
+
+img - Adicionar imagens (segurar ctrl e apertar "espaço" entre as aspas de 'src' para buscar imagem na pasta automatico)
+
+link - (pôr acima de "title" e selecionar a opção "favicon" para por o ícone do site, adicionar imagens formato .ico)
+
+address - endereço
+
+b - negrito (não semântica)
+strong - negrito (semântica)
+
+i - itálico (não semântica)
+em - itálico (semântica)
+
+mark - marcar texto
+
+small - texto pequeno
+
+del - texto deletado
+ins - texto inserido
+
+sup - sobrescrito
+sub - subscrito
+
+code - delimitar código e palavras mono-espaçadas
+
+pre - texto pré formatado (fica exatamente como digitado no VS code, como quebra de linha e espaços)
+
+q - citações
+blockquate - citações longas
+cite - usado como parâmetro para por link na citação (<blockquate cite: "LINK">)
+
+abbr - abreviações
+
+ol - listas ordenadas (se adicionar type, ex: <ol type = "1,A,a,I ou i "> adiciona numeração, letras ou numeros romanos como ordem
+ul - listas não ordenadas (se adicionar type, ex : <ul type= "disc, circle ou square  "> adiciona disco, circulo ou quadrados
+dl - lista de definições
+
+a - link externo (usar target="_blank" e rel="external" após as aspas do href, para n sobrepor a página e criar uma outra guia pro link)
+a - link interno (criar uma nova página .html e colocá-la dentro do href ex: href="pag02.html" e adicionar rel="next" para pag seguinte ou rel="prev" para anterior
+(usar target="self" para permanecer na mesma página com links internos após as aspas do href igual aí acima, exemplo: mudar de página no próprio site)
+
+./ - dentro do href volta uma página
+../ - dentro do href volta duas páginas
+
+pictures - adicionar imagens
+<source (adicionar os atributos : media="(max-width:1050px)" srcset="nome da foto.formato do arquivo" type="image/png"> add td isso acima da img
+
+audio - adicionar áudio (adicionar os atributos: preload="metadata" controls autoplay)
+<source src="nome da midia.formato do arquivo" type="audio/formato do arquivo"> é recomendado colocar os três tipos, .mp3, .ogg e .wav
+
+video - adicionar video interno (não recomendado), entre as tags, adicionar <source src="nome do arquivo.formato" type="video/formato do video">
+atributos pra colocar dentro da tag <video width="largura em px" poster="thumbanil do video" controls ->(botão de play do video)
+
+para add video externo, ir em compartilhar, depois incorporar e pegar a tag pronta, copiar e colar.
+
+header - cabeçalho do site
+
+nav - aréa de links do site (geralmente, dentro do header).
+
+main - conteúdo principal do site (geralmente tem seções, artigos e etc).
+
+section - criar seções (para dividir o conteúdo em artigos com conteúdos específicos).
+
+article - criar artigo (delimitar um post de blog, forúm ou notícia).
+
+aside - complemento do conteúdo principal ou conteúdo extra.
+
+footer - cria rodapé para o site inteiro, seção ou 
+
+min-width e max-width - mínimo e máximo de largura (responsivo de conteúdo e imagens).
