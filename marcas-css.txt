@@ -11,6 +11,7 @@ background-color = adicionar o cor de fundo da página ou texto
 background-image: linear-gradient(escolher a direcão e depois o codigo das cores); = adicionar cores degradê ao fundo de imagem
 exemplo de direções --> (to right, to left, to top, to bottom)
 
+background-image: url() = adiciona imagem de fundo
 
 background-attachment : fixed; fundo fixo
 
