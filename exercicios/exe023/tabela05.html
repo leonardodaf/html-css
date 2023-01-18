@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th{
+            border: solid 1px black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .cinza{
+            background-color: gray;
+        }
+
+        .dark{
+            background-color: darkslategray;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+
+    <table>
+
+        <colgroup>
+            <col class="cinza">
+            <col class="dark">
+            <col class="cinza">
+            <col class="dark">
+        </colgroup>
+
+        <caption>cadastro</caption>
+
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Médica</td>
+        </tr>
+
+        <tr>
+            <td>Bia</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Enfermeira</td>
+        </tr>
+
+        <tr>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Recepcionista</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
