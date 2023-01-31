@@ -14,8 +14,17 @@ exemplo de direções --> (to right, to left, to top, to bottom)
 background-image: url(' ') = adiciona imagem de fundo
 
 background-size = tamanho da imagem de fundo
+exemplo1 = background-size:auto (deixa no tamanho original)
+exemplo2 = background-size: length [em px ou %] (faz a altura e largura se adaptar automaticamente)
+exemplo3 = background-size: cover (faz com que a imagem ocupe a tela inteira sem corte)
+exemplo4 = background-size: container (redimensiona a imagem para caber no container, pode haver cortes)
 
 background-attachment : fixed; fundo fixo
+
+background-repeat = personaliza as repetições de imagens de fundo
+
+background-position = define como e onde a imagem de fundo é posicionada
+exemplo= background-position: right center (isso vai focar na parte da direita do centro da imagem escolhida)
 
 height = altura
 width = largura
@@ -43,6 +52,7 @@ exemplo: outline: 20px solid red;
 font-family = fonte das letras
 
 font-size = tamanho das letras (recomendado usar px ou em), tamanho normal das letras em site é 16px que é igual a 1em
+obs: usar em vw ajuda no responsivo, exemplo font-size: 10vh (isso significa que o texto ocupará 10% em qualquer tela)
 
 font-weight = peso da fonte
 
