@@ -80,3 +80,8 @@ aside - complemento do conteúdo principal ou conteúdo extra.
 footer - cria rodapé para o site inteiro, seção ou 
 
 min-width e max-width - mínimo e máximo de largura (responsivo de conteúdo e imagens).
+
+iframe - adiciona um site dentro do outro (em uma espécie de "modo janela") OBS: não funciona em alguns sites
+exemplo: <iframe> src="link do site" </iframe>
+
+parametros do iframe - height, width, frameborder(só pode ser 0 com borda, ou 1 sem borda) e scrolling (yes tem rolagem, no não tem)
