@@ -87,3 +87,6 @@ exemplo: <iframe> src="link do site" </iframe>
 parametros do iframe - height, width, frameborder(só pode ser 0 com borda, ou 1 sem borda) e scrolling (yes tem rolagem, no não tem)
 
 colocar um NAME no iframe, para depois adicionar esse name escolhido no TARGET, para que possa redirecionar links para aparecer dentro do IFRAME
+
+srcdoc - coloca código básico pra não deixar o iframe vazio
+exemplo: srcdoc="<h1>Escolha uma das opções acima</h1>" (sim, tem que digitar até as tags e barra do h1. mas é o que tem) (é melhor criar pasta e por imagem)
