@@ -85,3 +85,5 @@ iframe - adiciona um site dentro do outro (em uma espécie de "modo janela") OBS
 exemplo: <iframe> src="link do site" </iframe>
 
 parametros do iframe - height, width, frameborder(só pode ser 0 com borda, ou 1 sem borda) e scrolling (yes tem rolagem, no não tem)
+
+colocar um NAME no iframe, para depois adicionar esse name escolhido no TARGET, para que possa redirecionar links para aparecer dentro do IFRAME
