@@ -90,3 +90,35 @@ colocar um NAME no iframe, para depois adicionar esse name escolhido no TARGET, 
 
 srcdoc - coloca código básico pra não deixar o iframe vazio
 exemplo: srcdoc="<h1>Escolha uma das opções acima</h1>" (sim, tem que digitar até as tags e barra do h1. mas é o que tem) (é melhor criar pasta e por imagem)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FORMULÁRIOS : 
+
+form - tag que cria a delimitação do que é o formulário
+exemplo: <form> <p> digite seu nome: </p> </form>
+
+action - fica dentro da tag form, é a ação de pra onde será enviado/armazenado o formulário (a mais popular é em .php)
+exemplo: <form action= "cadastro.php"> </form>
+
+autocomplete - também fica dentro do form, serve para autocompletar ou não a caixa de texto
+exemplo : <form action= "cadastro.php" autocomplete="off OU on"
+
+input - caixa de texto onde se adiciona as informações de vários tipos ou types como é chamado, do formulário
+exemplo de input de texto: <form> <p> digite seu nome: </p> <input> type="text" name="nome" id="inome" </input> </form>
+exemplo de input de botão de envio:<input> type="submit" value="enviar" </input> (o nome que fica dentro do botão, escrever dentro de VALUE)
+
+name - é mais útil pra reconhecimento do html e php. serve para identificar
+id - é mais útil para o LABEL, e para liguangens como javascript, por exemplo. serve para identificar
+
+label - relaciona o texto com a caixa de texto que deseja envolver
+exemplo: <form> <p> <label for="inome"> digite seu nome: </label> </p> <input> type="text" name="nome" id="inome" </input> </form>
+OBS : no FOR, coloca o ID do item que deseja relacionar com a caixa de texto, deste modo, relacionando "digite seu nome" com o INPUT de nome
+
+method - seleciona o metódo de envio de formulário, GET ou POST
+
+get - método padrão de envio de formulário, aparece as informações no link e só pode ser preenchido por apróx. 3000 letras (recomendado pra buscas)
+
+post - usar quando os dados a serem enviados forem mais sensíveis, como cartão, imagem ou qualquer outro arquivo, senha, endereço, cep... (mais recomendado pro geral)
+
+OBS SOBRE POST : n traz proteção de fato, só n deixa 100% explícito em link como em GET, é recomendado estudar sobre https para proteger dados
