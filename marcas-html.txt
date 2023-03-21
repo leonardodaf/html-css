@@ -132,6 +132,6 @@ required - serve para preenchimento obrigatório daquele campo específico, tem 
 minlenght - mínimo de caracteres que pode no preenchimento de campo, tem q colocar dentro da tag input
 maxlenghtn- máximo de caracteres que pode no preenchimento de campo, tem q colocar dentro da tag input
 
-size - define quantos caracteres por vez ele irá mostrar na caixa de texto
+size - define quantos caracteres por vez ele irá mostrar na caixa de texto (ele pode errar as contas por causa do tamanho das fontes)
 
 placeholder - mensagem dentro da caixa de texto do que precisa ser digitado ali, tem q colocar dentro da tag input
