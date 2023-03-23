@@ -132,6 +132,13 @@ required - serve para preenchimento obrigatório daquele campo específico, tem 
 minlenght - mínimo de caracteres que pode no preenchimento de campo, tem q colocar dentro da tag input
 maxlenghtn- máximo de caracteres que pode no preenchimento de campo, tem q colocar dentro da tag input
 
+min - mínimo de um valor
+max - máximo de um valor
+exemplo: <input type="number" name="media" id="imedia" required min="0" max="10"> - mínimo de média definido por 0 e o máximo definido por 10
+
+step - define o parâmetro de quantos em quantos valores pode ser alterado a caixa de números
+exemplo : <input type="number" name="media" id="imedia" required min="0" max="10" step="0.1"> - neste caso, a nota pode ser aumentada de 1 em 1 décimo
+
 size - define quantos caracteres por vez ele irá mostrar na caixa de texto (ele pode errar as contas por causa do tamanho das fontes)
 
 placeholder - mensagem dentro da caixa de texto do que precisa ser digitado ali, tem q colocar dentro da tag input
