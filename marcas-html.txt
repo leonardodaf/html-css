@@ -142,3 +142,17 @@ exemplo : <input type="number" name="media" id="imedia" required min="0" max="10
 size - define quantos caracteres por vez ele irá mostrar na caixa de texto (ele pode errar as contas por causa do tamanho das fontes)
 
 placeholder - mensagem dentro da caixa de texto do que precisa ser digitado ali, tem q colocar dentro da tag input
+
+fieldset - agrupar campos de texto
+exemplo : <form> <fieldset> AQUI DENTRO FICA OS VÁRIOS LABEL/INPUT QUE DESEJO AGRUPAR </fieldset> </form>
+
+legend - legenda de algo, espécie de "subtitulo" pro formulário
+
+pattern - padronização de como deve ser escrito o campo de texto
+
+checkbox - caixa de marcação de opções, é um type que fica dentro do input
+
+radio - caixa de marcação de opções parecida com checkbox, só que aqui apenas uma opção pode ser marcada (colocar mesmo NAME para não selecionar duplamente)
+
+checked - deixa alguma opção a sua escolha já selecionada no checkbox ou radio, este parametro dfica dentro do input
+
