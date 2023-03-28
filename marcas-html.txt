@@ -164,3 +164,17 @@ exemplo: <input> type="range" name="nivel" id="inivel" </input>
 
 file - um dos TYPE que é utilizado para upload de arquivos (como foto, videos, etc.)
 exemplo: <input> type="file" name="file" id="ifile" </input>
+
+select - usado para criar uma lista
+exemplo: <form> <select> <option value="BA"> BAHIA </option> <option value="SC"> SANTA CATARINA </option> </select> </form>
+
+option - usado para definir uma opção de lista, COMO MOSTRADO NO EXEMPLO ACIMA!
+
+optgroup - usado para agrupar opções no SELECT
+exemplo: <form> <select> <optgroup label="estado"> <option value="BA"> BAHIA </option> <option value="SC"> SANTA CATARINA </option> </optgroup></select> </form>
+
+datalist - usado para uma lista de opções predefinidas, gera um recurso de "preenchimento automático" numa lista suspensa com opções predefinidas.
+exemplo: <label for="iprof"> Profissão: </label> <input type="text"> <datalist id="lista"> <option> ADM </option> <option> DEV </option> <datalist>
+
+textarea - caixa de entrada de texto (usado para comentários, revisões e etc.)
+exemplo: <label for="imsg"> Mensagem: </label> <textarea name="msg" id="imsg" cols="30" rows="10"> </textarea>
