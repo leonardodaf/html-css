@@ -156,3 +156,11 @@ radio - caixa de marcação de opções parecida com checkbox, só que aqui apen
 
 checked - deixa alguma opção a sua escolha já selecionada no checkbox ou radio, este parametro dfica dentro do input
 
+color - um dos TYPE que permite escolha de uma cor
+exemplo: <input> type="color" name="color" id="icolor" </input>
+
+range - um dos TYPE que insere valor em forma de barra de arrastar, cujo valor exato não é tão importante
+exemplo: <input> type="range" name="nivel" id="inivel" </input>
+
+file - um dos TYPE que é utilizado para upload de arquivos (como foto, videos, etc.)
+exemplo: <input> type="file" name="file" id="ifile" </input>
